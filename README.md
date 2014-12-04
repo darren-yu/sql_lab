@@ -59,7 +59,7 @@ Provide the follow sql statements below each question.
 	
 	solution 2 (short version):
 	
-	SELECT b.title FROM books b INNER JOIN subjects s ON b.subject_id = s.id WHERE subject = 'Computer
+	SELECT b.title FROM books b INNER JOIN subjects s ON b.subject_id = s.id WHERE subject = 'Computers';
 	```
 	
 * Find all books and display ONLY
